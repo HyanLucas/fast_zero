@@ -42,6 +42,7 @@ lint = 'ruff check . && ruff check . --diff'
 pre_format = 'ruff check --fix'
 format = 'ruff check . --fix && ruff format .'
 run = 'fastapi dev src/fast_zero/app.py'
+#poetry run fastapi dev src/fast_zero/app.py --host 0.0.0.0 --port 800x
 pre_test = 'task lint'
 test = 'pytest -s -x --cov=src/fast_zero -vv'
 post_test = 'coverage html'
