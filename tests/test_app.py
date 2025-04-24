@@ -60,7 +60,7 @@ def test_get_user(client):
     }
 
 
-def test_get_uer_should_return_not_found(client):
+def test_get_user_should_return_not_found(client):
     response = client.get('/users/2')
 
     assert response.status_code == HTTPStatus.NOT_FOUND

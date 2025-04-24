@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\hyanl\PycharmProjects\fast_zero\.coverage</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="database" uuid="99ccb58d-7366-4fb0-96fb-8ab6ed926517">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\hyanl\PycharmProjects\fast_zero\database.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
